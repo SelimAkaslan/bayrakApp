@@ -10,7 +10,7 @@ function UseEffectFetch() {
   }, []);
   return (
     <div className="text-center mt-5">
-      <h1 className="bg-warning">ULKE BILGILERI</h1>
+      <h1 className="bg-success">ULKE BILGILERI</h1>
       {ulkeler.map((ulke) => {
         return (
           <div key={ulke.name}>
